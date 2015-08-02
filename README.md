@@ -32,6 +32,7 @@ Then you can create a your PersonTableModel like this
 
 	public class PersonTableModel extends BaseTableModel<Person> {
 	
+		// this is your table headers
 		public PersonTableModel() {
 			super("ID", "Name");
 		}
